@@ -19,12 +19,22 @@ It is recommended to use this package https://github.com/guillermomartinez/filem
 Edit your `composer.json`.
 
 	"require": {
-		"pqb/filemanager-laravel": "2.*"
+		"vdhsoft-com/laravel-filemanager": "dev-main"
 	}
+
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/VDHSoft-com/laravel-filemanager"
+        }
+    ]
+
 
 Execute
 
 	composer update
+	or
+	composer require vdhsoft-com/laravel-filemanager:dev-main
 
 Add to your file app.php
 
