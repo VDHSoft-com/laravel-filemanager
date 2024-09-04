@@ -1,44 +1,45 @@
-# Filemanager para Laravel 5
-Basado de https://github.com/simogeo/Filemanager
+# Filemanager for Laravel 10
+Based on https://github.com/guillermomartinez/filemanager-laravel
 
-## Importante
-Este paquete solo se dará soporte por temas de seguridad.
+## Important
+This package will only be supported for security reasons..
 
-Se recomienda usar este paquete https://github.com/guillermomartinez/filemanager-ui
+It is recommended to use this package https://github.com/guillermomartinez/filemanager-ui
 
 ## Demo
 <a href="http://laravel-filemanager.rhcloud.com/" target="_blank" >http://laravel-filemanager.rhcloud.com/</a><br>
 <a href="http://laravel-filemanager.rhcloud.com/filemanager/show" target="_blank">http://laravel-filemanager.rhcloud.com/filemanager/show</a>
 
-## Requiere
+## Requires
 
 "intervention/image": "2.*"
 
-## Instalación
+## Instalation
 
-Edita tu `composer.json`.
+Edit your `composer.json`.
 
 	"require": {
 		"pqb/filemanager-laravel": "2.*"
 	}
 
-Ejecuta
+Execute
 
 	composer update
 
-Agrega en tu archivo app.php
+Add to your file app.php
 
 	'Pqb\FilemanagerLaravel\FilemanagerLaravelServiceProvider',
 
-Y en el Facade
+And in the Facade
 
 	'FilemanagerLaravel'=> 'Pqb\FilemanagerLaravel\Facades\FilemanagerLaravel',
 
-Copia el Controller, View a la carpeta resources/views/vendor/filemanager-laravel, la carpeta filemanager y tinymce a tu carpeta public, con el siguiente comando:
+Copy the Controller, View to the folder resources/views/vendor/filemanager-laravel, 
+the filemanager folder and tinymce to your public folder, with the following command:
 	
 	php artisan vendor:publish
 
-Al final Agrega en routes.php
+At the end Add in routes.php
 
 	Route::group(['prefix' => 'filemanager','middleware' => 'auth'], function() {    
 	    Route::get('show', 'FilemanagerLaravelController@getShow');
@@ -47,7 +48,7 @@ Al final Agrega en routes.php
 	});
 
 
-Para que carge tinymce con el plugin filemanager agrega:
+To load tinymce with the filemanager plugin add:
 
 ```
 <script type="text/javascript" src="{{ url('') }}/tinymce/tinymce.min.js"></script>
@@ -59,10 +60,10 @@ tinymce.init(editor_config);
 </script>
 ```
 
-## Si deseas poner en una sub carpeta
+## If you want to put in a sub folder
 Ejemplo http://localhost/admin/filemanager/
 
-Modifica tu routes.php
+Modify your routes.php
 ```
 Route::group(array('middleware' => 'auth'), function(){    
     Route::get('admin/filemanager/show', 'FilemanagerLaravelController@getShow');
@@ -70,7 +71,7 @@ Route::group(array('middleware' => 'auth'), function(){
     Route::post('admin/filemanager/connectors', 'FilemanagerLaravelController@postConnectors');
 });
 ```
-Modifica tu controller
+Modify your controller
 ```
 // app/Http/Controllers/FilemanagerLaravelController.php
 public function getConnectors()
@@ -89,73 +90,19 @@ public function getConnectors()
 	}
 ```
 
-Modifica todos los enlaces agregando el nombre de tu carpeta
+Modify all links by adding the name of your folder
 ```	
 // resources/views/vendor/filemanager-laravel/filemanager/index.blade.php
 <link rel="stylesheet" type="text/css" href="{{ url('') }}/admin/filemanager/styles/filemanager.css" />
 ```
 
-Cambia la url absoluta:
+Change the absolute url:
 ```
 <script type="text/javascript">
 editor_config.selector = "textarea";
 editor_config.path_absolute = "http://laravel-filemanager.rhcloud.com/admin/";
 tinymce.init(editor_config);
 </script>
-```
-
-# Filemanager para Laravel 4
-Basado de https://github.com/simogeo/Filemanager
-
-## Requiere
-
-"intervention/image": "2.*"
-
-## Instalación
-
-Edita tu `composer.json`.
-
-	"require": {
-		"pqb/filemanager-laravel": "1.*"
-	}
-
-Ejecuta
-
-	composer update
-
-Agrega en tu archivo app.php
-
-	'Pqb\FilemanagerLaravel\FilemanagerLaravelServiceProvider',
-
-Y en el Facade
-
-	'FilemanagerLaravel'=> 'Pqb\FilemanagerLaravel\Facades\FilemanagerLaravel',
-
-Agrega en routes.php
-
-	Route::group(array('before' => 'auth'), function(){
-		Route::controller('filemanager', 'FilemanagerLaravelController');
-	});
-
-Copia las carpetas filemanager y tinymce a tu carpeta public
-
-	php artisan asset:publish --path="vendor/pqb/filemanager-laravel/public" "../"
-
-Para que carge tinymce con el plugin filemanager agrega:
-
-```
-<script type="text/javascript" src="{{ url('') }}/tinymce/tinymce.min.js"></script>
-<script type="text/javascript" src="{{ url('') }}/tinymce/tinymce_editor.js"></script>
-<script type="text/javascript">
-editor_config.selector = "textarea";
-tinymce.init(editor_config);
-</script>
-```
-
-Cambiar la url absoluta en:
-```
-//tinymce/tinymce_editor.js
-var cmsURL = 'http://localhost/filemanager/show?&field_name='+field_name+'&lang='+tinymce.settings.language;
 ```
 
 ## Demo
