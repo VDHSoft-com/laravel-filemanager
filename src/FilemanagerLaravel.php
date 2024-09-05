@@ -1,5 +1,7 @@
 <?php
-namespace Pqb\FilemanagerLaravel;
+
+namespace VDHSoft\FilemanagerLaravel;
+
 class FilemanagerLaravel
 {
 	public static function Filemanager($extraConfig = null){

@@ -39,11 +39,11 @@ Execute
 
 Add to your file app.php
 
-	'Pqb\FilemanagerLaravel\FilemanagerLaravelServiceProvider',
+	'VDHSoft\FilemanagerLaravel\FilemanagerLaravelServiceProvider',
 
 And in the Facade
 
-	'FilemanagerLaravel'=> 'Pqb\FilemanagerLaravel\Facades\FilemanagerLaravel',
+	'FilemanagerLaravel'=> 'VDHSoft\FilemanagerLaravel\Facades\FilemanagerLaravel',
 
 Copy the Controller, View to the folder resources/views/vendor/filemanager-laravel, 
 the filemanager folder and tinymce to your public folder, with the following command:

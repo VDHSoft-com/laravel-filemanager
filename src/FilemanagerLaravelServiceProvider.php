@@ -1,4 +1,6 @@
-<?php namespace Pqb\FilemanagerLaravel;
+<?php 
+
+namespace VDHSoft\FilemanagerLaravel;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -18,7 +20,7 @@ class FilemanagerLaravelServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		// $this->package('Pqb/FilemanagerLaravel');
+		// $this->package('VDHSoft/FilemanagerLaravel');
 	}
 
 	/**
@@ -34,7 +36,7 @@ class FilemanagerLaravelServiceProvider extends ServiceProvider {
 		$this->app->booting(function()
 		{
 		  $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-		  $loader->alias('FilemanagerLaravel', 'Pqb\FilemanagerLaravel\Facades\FilemanagerLaravel');
+		  $loader->alias('FilemanagerLaravel', 'VDHSoft\FilemanagerLaravel\Facades\FilemanagerLaravel');
 		});
 		$this->publishes([
             __DIR__ . '/../../controllers' => base_path('app/Http/Controllers'),

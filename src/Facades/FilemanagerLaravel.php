@@ -1,4 +1,6 @@
-<?php namespace Pqb\FilemanagerLaravel\Facades;
+<?php 
+
+namespace VDHSoft\FilemanagerLaravel\Facades;
  
 use Illuminate\Support\Facades\Facade;
  

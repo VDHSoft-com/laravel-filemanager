@@ -1,6 +1,9 @@
 <?php
-namespace Pqb\FilemanagerLaravel;
+
+namespace VDHSoft\FilemanagerLaravel;
+
 use Intervention\Image\ImageManagerStatic as Image;
+
 class Filemanager
 {
 	protected $config = array();
