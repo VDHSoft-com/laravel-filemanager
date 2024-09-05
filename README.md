@@ -1,5 +1,6 @@
 # Filemanager for Laravel 10
-Based on https://github.com/guillermomartinez/filemanager-laravel
+
+I'm not the author of this package, all credits go to https://github.com/guillermomartinez/filemanager-laravel
 
 ## Important
 This package will only be supported for security reasons..
