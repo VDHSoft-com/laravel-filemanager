@@ -16,9 +16,9 @@ class FilemanagerLaravelServiceProvider extends ServiceProvider
         // Publier les ressources
 		// __DIR__ = D:\xampp\htdocs\laravel\package\project\vendor\vdhsoft-com\laravel-filemanager\src
         $this->publishes([
-            __DIR__ . '/../../controllers' => base_path('app/Http/Controllers'),
-            __DIR__ . '/../../views' => base_path('resources/views/vendor/filemanager-laravel'),
-            __DIR__ . '/../../../public' => base_path('public'),
+            __DIR__ . '/controllers' => base_path('app/Http/Controllers'),
+            __DIR__ . '/resources/views' => base_path('resources/views/vendor/filemanager-laravel'),
+            __DIR__ . '/../public' => base_path('public'),
         ], 'filemanager-laravel');
 
         // Charger les vues
