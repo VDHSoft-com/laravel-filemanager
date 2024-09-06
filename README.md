@@ -1,4 +1,8 @@
-# Filemanager for Laravel 10
+<h1 align="center">Laravel 10 Filemanager</h1>
+<p align="center">
+    <a href="https://www.vdhsoft.com"><img src="https://badgen.net/badge/facebook/laravelarticle/3b5998"/></a>
+</p>
+<p align="center">Upgrated version of filemanager for Laravel 10 Framework</p>
 # !!! under development !!!
 
 I'm not the author of this package, I have just upgraded to Laravel 10,
