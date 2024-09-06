@@ -3,10 +3,10 @@
     <a href="https://www.vdhsoft.com"><img src="https://badgen.net/badge/my site/vdhsoft"/></a>
 </p>
 <p align="center">Upgrated version of filemanager for Laravel 10 Framework</p>
-# !!! under development !!!
+<p align="center">!!! under development !!!</p>
 
-I'm not the author of this package, I have just upgraded to Laravel 10,
-all credits go to https://github.com/guillermomartinez/filemanager-laravel
+<p align="center">I'm not the author of this package, I have just upgraded to Laravel 10,
+all credits go to https://github.com/guillermomartinez/filemanager-laravel</p>
 
 ![Image description](previews/preview-main-1.png)
 ![Image description](previews/preview-main-2.png)
