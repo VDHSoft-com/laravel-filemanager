@@ -1,6 +1,6 @@
 <h1 align="center">Laravel 10 Filemanager</h1>
 <p align="center">
-    <a href="https://www.vdhsoft.com"><img src="https://badgen.net/badge/vdhsoft/vdhsoft"/></a>
+    <a href="https://www.vdhsoft.com"><img src="https://badgen.net/badge/my site/vdhsoft"/></a>
 </p>
 <p align="center">Upgrated version of filemanager for Laravel 10 Framework</p>
 # !!! under development !!!
