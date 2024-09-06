@@ -3,7 +3,7 @@
     <a href="https://www.vdhsoft.com"><img src="https://badgen.net/badge/my site/vdhsoft"/></a>
 </p>
 <p align="center">Upgrated version of filemanager for Laravel 10 Framework</p>
-<p align="center">!!! under development !!!</p>
+<p align="center">!!! under development (tinymce not yet upgrated) !!!</p>
 
 <p align="center">I'm not the author of this package, I have just upgraded to Laravel 10,
 all credits go to https://github.com/guillermomartinez/filemanager-laravel</p>
@@ -16,10 +16,6 @@ all credits go to https://github.com/guillermomartinez/filemanager-laravel</p>
 This package will only be supported for security reasons..
 
 It is recommended to use this package https://github.com/guillermomartinez/filemanager-ui
-
-## Demo
-<a href="http://laravel-filemanager.rhcloud.com/" target="_blank" >http://laravel-filemanager.rhcloud.com/</a><br>
-<a href="http://laravel-filemanager.rhcloud.com/filemanager/show" target="_blank">http://laravel-filemanager.rhcloud.com/filemanager/show</a>
 
 ## Requires
 
