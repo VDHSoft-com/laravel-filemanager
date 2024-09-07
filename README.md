@@ -15,7 +15,7 @@ This package will only be supported for security reasons..
 
 It is recommended to use this package https://github.com/guillermomartinez/filemanager-ui
 
-## Requires
+## Requirement
 
 "intervention/image": "2.*"
 
