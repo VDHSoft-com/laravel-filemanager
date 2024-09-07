@@ -8,9 +8,7 @@
 <p align="center">I'm not the author of this package, I have just upgraded to Laravel 10,
 all credits go to https://github.com/guillermomartinez/filemanager-laravel</p>
 
-![Image description](previews/preview-main-1.png)
-![Image description](previews/preview-main-2.png)
-![Image description](previews/preview-select-1.png)
+![Image description](previews/preview.gif)
 
 ## Important
 This package will only be supported for security reasons..
