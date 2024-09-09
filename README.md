@@ -63,7 +63,7 @@ At the end Add in routes.php
 	});
 
 
-To load tinymce with the filemanager plugin add:
+To load tinymce with the filemanager plugin add :
 
 ```
 <script type="text/javascript" src="{{ url('') }}/tinymce/tinymce.min.js"></script>
