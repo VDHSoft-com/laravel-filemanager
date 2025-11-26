@@ -79,7 +79,7 @@ tinymce.init(editor_config);
 ```
 
 ## If you want to put in a sub folder
-Ejemplo http://localhost/admin/filemanager/
+Example http://localhost/admin/filemanager/
 
 Modify your routes.php
 ```
