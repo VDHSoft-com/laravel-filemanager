@@ -44,7 +44,7 @@ Execute
 	or
 	composer require vdhsoft-com/laravel-filemanager:dev-main
 
-Add to your file app.php
+Add to your file config\app.php
 
 	'VDHSoft\FilemanagerLaravel\FilemanagerLaravelServiceProvider',
 
