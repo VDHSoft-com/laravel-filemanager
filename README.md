@@ -25,12 +25,12 @@ Edit your `composer.json` and change it with this :
 
 	"name": "laravel/laravel",
 	"type": "project",
-	composer require vdhsoft-com/laravel-filemanager:dev-main
-	composer update
-	or
-	composer require vdhsoft-com/laravel-filemanager:dev-main
-	composer update
-	or
+	"repositories": [
+	{
+	  "type": "vcs",
+	  "url": "https://github.com/VDHSoft-com/laravel-filemanager"
+	}
+	],
 	composer require vdhsoft-com/laravel-filemanager:dev-main
 	composer update
 	or
