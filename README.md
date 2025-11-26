@@ -23,10 +23,8 @@ It is recommended to use this package https://github.com/guillermomartinez/filem
 
 Edit your `composer.json` and change it with this :
 
-Execute
-
-	composer update
-	or
+	"name": "laravel/laravel",
+	"type": "project",
 	composer require vdhsoft-com/laravel-filemanager:dev-main
 	composer update
 	or
