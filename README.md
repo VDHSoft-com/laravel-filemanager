@@ -28,6 +28,15 @@ Execute
 	composer update
 	or
 	composer require vdhsoft-com/laravel-filemanager:dev-main
+	composer update
+	or
+	composer require vdhsoft-com/laravel-filemanager:dev-main
+	composer update
+	or
+	composer require vdhsoft-com/laravel-filemanager:dev-main
+	composer update
+	or
+	composer require vdhsoft-com/laravel-filemanager:dev-main
 
 	
 "name": "laravel/laravel",
