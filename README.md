@@ -31,29 +31,12 @@ Edit your `composer.json` and change it with this :
 	  "url": "https://github.com/VDHSoft-com/laravel-filemanager"
 	}
 	],
-	composer require vdhsoft-com/laravel-filemanager:dev-main
-	composer update
-	or
-	composer require vdhsoft-com/laravel-filemanager:dev-main
-
-	
-"name": "laravel/laravel",
-"type": "project",
-"repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/VDHSoft-com/laravel-filemanager"
-        }
-    ],
-    "require": {
-        "php": "^8.1",
-        ...
-        "vdhsoft-com/laravel-filemanager": "dev-main",
-        ...
-    },
-
-
-
+	"require": {
+	  "php": "^8.1",
+	  ...
+	  "vdhsoft-com/laravel-filemanager": "dev-main",
+	  ...
+	},
 
 Execute
 
