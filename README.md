@@ -23,21 +23,21 @@ It is recommended to use this package https://github.com/guillermomartinez/filem
 
 Edit your `composer.json` and change it with this :
 
-{
-	"name": "laravel/laravel",
-	"type": "project",
-	"repositories": [
-	{
-		"type": "vcs",
-		"url": "https://github.com/VDHSoft-com/laravel-filemanager"
-	}
-	],
-	"require": {
+"name": "laravel/laravel",
+"type": "project",
+"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/VDHSoft-com/laravel-filemanager"
+        }
+    ],
+    "require": {
         "php": "^8.1",
         ...
         "vdhsoft-com/laravel-filemanager": "dev-main",
         ...
     },
+
 
 
 
