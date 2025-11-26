@@ -40,9 +40,9 @@ Edit your `composer.json` and change it with this :
 
 Execute
 
-	composer update
+	`composer update`
 	or
-	composer require vdhsoft-com/laravel-filemanager:dev-main
+	`composer require vdhsoft-com/laravel-filemanager:dev-main`
 
 Add to your file app.php
 
